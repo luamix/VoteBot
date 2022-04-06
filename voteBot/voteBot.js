@@ -3,8 +3,9 @@ const puppeteer = require('puppeteer');
 (async () => {
 	const pollURL = 'https://poll.fm/11084850';
 	const answerId = 'PDI_answer50827414';
+     
 
-	const browser = await puppeteer.launch({ headless: false });
+	const browser = await puppeteer.launch({ headless: true });
 	const page = await browser.newPage();
 	await page.setViewport({
 		width: 1280,
@@ -23,12 +24,12 @@ const puppeteer = require('puppeteer');
 	await page.click('input#' + answerId);
 	console.log('Answer chosen.');
 
-	await page.waitForSelector('#stage-inner > div.grid > div > form > div:nth-child(2) > div > div.l-link > a');
-	await page.click('#stage-inner > div.grid > div > form > div:nth-child(2) > div > div.l-link > a');
+	await page.evaluate(() => { document.querySelector('.vote-button').click(); });
 	console.log('Voted.');
 
-	await page.waitForSelector('#stage-inner > div.grid > div > form > div.poll > h1');
-	console.log("Results page opened. I'll close the browser.");
+
+	console.log("Results page opened, closing browser.");
+	var delayInMilliseconds = 500
 
 	await browser.close();
 })();
