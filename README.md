@@ -23,3 +23,15 @@ It's written in Javascript and JQuery with Puppeteer.
 8. Alternatively, you can launch voteBot.js to vote one time.
 
 
+#Q-A
+
+Q. Can I use this on Mac? 
+A. No
+
+Q. Do I have to install anything?
+A. Yes go back to question one.
+
+Q. Does this work for any poll.fm?
+A. Yes change the links.
+
+
