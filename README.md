@@ -23,7 +23,7 @@ It's written in Javascript and JQuery with Puppeteer.
 8. Alternatively, you can launch voteBot.js to vote one time.
 
 
-#Q-A
+# Q-A
 
 Q. Can I use this on Mac? 
 A. No
