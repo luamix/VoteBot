@@ -1,7 +1,7 @@
 @echo off
 
 SET count=1
-FOR /L %%G IN (0,1,100) DO (
+FOR /L %%G IN (0,1,900) DO (
 
 call :subroutine "%%G"
 node voteBot.js
@@ -13,7 +13,7 @@ call :sub "%%G"
 timeout 120
 )
 
-timeout 2
+timeout 1
 
 )
 set /p DUMMY=Press enter to continue.
