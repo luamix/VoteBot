@@ -1,7 +1,7 @@
 # voteBot
 VoteBot is a bot to automatically vote on https://poll.fm/.
 
-It's writed in Javascript and JQuery with Puppeteer.
+It's written in Javascript and JQuery with Puppeteer.
 
 
 # How to use
@@ -21,3 +21,6 @@ It's writed in Javascript and JQuery with Puppeteer.
 7. Launch runVoteBot.bat, if you have Windows, and watch voteBot to vote for you infinite times with a pause after 23 votes.
 
 8. Alternatively, you can launch voteBot.js to vote one time.
+
+
+2021 Odin Schikosky
