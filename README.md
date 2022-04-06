@@ -23,4 +23,3 @@ It's written in Javascript and JQuery with Puppeteer.
 8. Alternatively, you can launch voteBot.js to vote one time.
 
 
-2021 Odin Schikosky
