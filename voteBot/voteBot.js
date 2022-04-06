@@ -1,8 +1,8 @@
 const puppeteer = require('puppeteer');
 
 (async () => {
-	const pollURL = 'https://poll.fm/10513348';
-	const answerId = 'PDI_answer48644839';
+	const pollURL = 'https://poll.fm/11084850';
+	const answerId = 'PDI_answer50827414';
 
 	const browser = await puppeteer.launch({ headless: false });
 	const page = await browser.newPage();
