@@ -6,32 +6,22 @@ It's written in Javascript and JQuery with Puppeteer.
 
 # How to use
 
-1. Downoad and install Node.js.
+1. Install Node.JS
 
-2. Download and install Puppeteer.
+2. Install Puppeteer via Command Prompt
 
-3. Open voteBot.js with Notepad or your favourite code editor.
+3. Open voteBot.js with a text editor
 
 4. Change the pollURL value with your poll URL.
 
-5. Open your poll page, copy your answer ID and paste it in the answerId value.
+5. Open your poll page, copy your answer ID and paste it in the answerId value(Located in inspect).
 
 6. Save it and close the file.
 
-7. Launch runVoteBot.bat, if you have Windows, and watch voteBot to vote for you infinite times with a pause after 23 votes.
+7. Launch runVoteBot.bat.
 
-8. Alternatively, you can launch voteBot.js to vote one time.
+8. Fine tune delay as needed if your requests are being blocked by server.
 
 
-# Q-A
-
-Q. Can I use this on Mac? 
-A. No
-
-Q. Do I have to install anything?
-A. Yes go back to question one.
-
-Q. Does this work for any poll.fm?
-A. Yes change the links.
 
 
